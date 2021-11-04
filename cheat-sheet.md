@@ -29,6 +29,22 @@ An overview of the ``git structure`` can be taken from the above picture. We can
 * ``git log``: Display commits to a local Git repository in order of recency.
 * ``git help``: Built-in help for Git commands - supply name of a particular command to learn about it.
 
+## Git Cheat Sheet Octocat
+
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
+A joint git cheat sheet as a training repository to learn git workflows
+
+### Category: Branch, forks, merge/rebase
+
+* ``git branch``: creates a new branch
+* ``git checkout <branch-name>``: switch to the specified branch 
+* ``git merge``: merges the changes of the remote branch to the local branch
+* ``git rebase``: moving the base of a branch onto a different position
+* ``git pull``: downloads and merges changes to your local repository
+* ``git fetch``: make changes on the remote repository locally visible
+
+![Diff Rebase Merge](images/git_commit_merge_rebase.png)
 
 ## Advanced Commands
 
